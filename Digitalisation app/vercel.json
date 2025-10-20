@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "Digitalisation app": "app.py", 
+      "use": "@vercel/python"
+    }
+  ],
+  "routes": [
+    {
+      "Digitalisation app": "/(.*)",           
+      "dest": "app.py"       
+    }
+  ]
+}
